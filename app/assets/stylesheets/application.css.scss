@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+
+ 
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+	background: #C8C8C8;
+}
+
+.review_title {
+	margin: 0 0 20px 0;
+}
+
+.reviews {
+	padding: 15px 0;
+	border-bottom: 1px solid #A9A9A9;
+	.star-rating {
+		padding-bottom: 8px;
+	}
+}
